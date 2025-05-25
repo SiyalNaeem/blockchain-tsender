@@ -1,12 +1,9 @@
-import { ConnectButton } from '@rainbow-me/rainbowkit';
-import '@rainbow-me/rainbowkit/styles.css';
+import AirdropForm from '@/components/AirdropForm';
 
 export default function Home() {
   return (
     <>
-      <ConnectButton />
-
-      <h1>hello6</h1>
+      <AirdropForm />
     </>
   );
 }
