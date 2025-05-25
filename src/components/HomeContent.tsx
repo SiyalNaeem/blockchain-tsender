@@ -8,7 +8,7 @@ export default function HomeContent() {
 
   return (
     <>
-      {!isConnected ? (
+      {isConnected ? (
         <AirdropForm />
       ) : (
         <div>
